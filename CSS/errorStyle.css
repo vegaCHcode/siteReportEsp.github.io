@@ -1,0 +1,29 @@
+/* Estilizando o corpo da página para ocupar 100% da altura */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Centralizando tudo dentro do body */
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Estilizando o texto */
+#error404 p {
+    font-size: 50px;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Ajustando a imagem */
+#error404_img img {
+    max-width: 100%;
+    height: auto;
+}

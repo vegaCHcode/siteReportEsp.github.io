@@ -1,0 +1,40 @@
+* {
+    text-decoration: none;
+}
+
+.noticia-lista {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.noticia-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.noticia-foto {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.noticia-conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.noticia-titulo {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.noticia-manchete {
+    font-size: 14px;
+    margin: 5px 0 0;
+    color: #666;
+}
